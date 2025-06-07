@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Smart Recon Assistant</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Security Headers</h2>
+  <ul id="headersList"><li>Loading...</li></ul>
+  <h2>Suspicious Scripts</h2>
+  <ul id="scriptsList"><li>Loading...</li></ul>
+  <button id="exportBtn">Export Results</button>
+  <div id="historySection">
+    <h3>Scan History</h3>
+    <select id="historySelect" style="width: 100%; margin-bottom: 6px;">
+      <option value="">Select previous scan</option>
+    </select>
+    <div id="historyList"></div>
+	<button id="clearHistoryBtn" style="width: 100%; margin-bottom: 10px;">Clear History</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
+
+
