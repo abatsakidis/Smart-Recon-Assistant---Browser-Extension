@@ -70,9 +70,6 @@ Feel free to submit issues or pull requests for improvements or bug fixes.
 
 MIT License © Your Name
 
----
 
-## Contact
 
-For questions or support, please open an issue or contact me via [your-email@example.com].
 
